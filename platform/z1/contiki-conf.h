@@ -59,7 +59,7 @@
 #define CXMAC_CONF_ANNOUNCEMENTS         0
 #define XMAC_CONF_ANNOUNCEMENTS          0
 
-#define QUEUEBUF_CONF_NUM                4 
+#define QUEUEBUF_CONF_NUM                4
 
 
 #else /* WITH_UIP6 */
@@ -150,7 +150,7 @@
 #define UIP_CONF_ND6_MAX_PREFIXES       3
 #define UIP_CONF_ND6_MAX_DEFROUTERS     2
 #define UIP_CONF_IP_FORWARD             0
-#define UIP_CONF_BUFFER_SIZE		140
+#define UIP_CONF_BUFFER_SIZE            240
 
 #define SICSLOWPAN_CONF_COMPRESSION_IPV6        0
 #define SICSLOWPAN_CONF_COMPRESSION_HC1         1
