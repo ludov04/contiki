@@ -198,5 +198,5 @@ tmp102_read_temp_x100(void)
 int8_t
 tmp102_read_temp_simple (void)
 {
-  return (int8_t) tmp102_read_temp_x100() / 100;
+  return (int8_t) (tmp102_read_temp_x100() / 100);
 }
